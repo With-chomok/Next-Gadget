@@ -122,6 +122,14 @@
       "price": 159,
       "category": "Audio",
       "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=600"
+    },
+    {
+      "id": "16",
+      "name": "Canon EOS R6 Mark II",
+      "description": "Versatile full-frame mirrorless camera with advanced autofocus and 4K video.",
+      "price": 2499,
+      "category": "Cameras",
+      "image": "https://i.ibb.co.com/S4WkkNV4/538114543-1424832063021213-7854143671942902195-n.jpg?q=80&w=600"
     }
   ]
 }

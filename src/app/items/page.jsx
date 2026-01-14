@@ -4,7 +4,7 @@ import React from "react";
 const getItems = async () => {
   // NEXT_PUBLIC_SITE_URL ba direct localhost use kora dorkar server-side fetch-er jonno
   const res = await fetch("http://localhost:3000/items.json", {
-    cache: "no-store", // Data jate update hole auto pay
+    cache: "no-store", 
   });
 
   if (!res.ok) {
