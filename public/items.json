@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro Max",
+      "description": "The ultimate iPhone with a titanium design and the powerful A17 Pro chip.",
+      "price": 1199,
+      "category": "Smartphones",
+      "image": "https://images.unsplash.com/photo-1696446701796-da61225697cc?q=80&w=600"
+    },
+    {
+      "id": "2",
+      "name": "MacBook Air M3",
+      "description": "Stunningly thin and fast, so you can work, play, or create anywhere.",
+      "price": 1099,
+      "category": "Laptops",
+      "image": "https://i.ibb.co.com/svXpcLPQ/mac.webp?q=80&w=600"
+    },
+    {
+      "id": "3",
+      "name": "Sony WH-1000XM5",
+      "description": "Industry-leading noise cancellation and magnificent sound quality.",
+      "price": 349,
+      "category": "Audio",
+      "image": "https://i.ibb.co.com/jvD5XV6h/va.jpg?q=80&w=600"
+    },
+  
+    {
+      "id": "4",
+      "name": "Logitech MX Master 3S",
+      "description": "Ergonomic wireless mouse with ultra-fast scrolling and silent clicks.",
+      "price": 99,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=600"
+    },
+    {
+      "id": "5",
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Experience AI-powered mobile photography and an incredible 200MP camera.",
+      "price": 1299,
+      "category": "Smartphones",
+      "image": "https://i.ibb.co.com/VpxRj2pr/images.jpg?q=80&w=600"
+    },
+    {
+      "id": "6",
+      "name": "Dell XPS 15",
+      "description": "A balance of power and portability with a stunning 4K OLED display.",
+      "price": 1899,
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=600"
+    },
+    {
+      "id": "7",
+      "name": "Keychron K2 V2",
+      "description": "Tactile mechanical keyboard for a comfortable and satisfying typing experience.",
+      "price": 89,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=600"
+    },
+    {
+      "id": "8",
+      "name": "GoPro HERO12",
+      "description": "The best HERO camera yet with HDR Video and incredible stabilization.",
+      "price": 399,
+      "category": "Cameras",
+      "image": "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?q=80&w=600"
+    },
+    {
+      "id": "9",
+      "name": "iPad Pro M2",
+      "description": "Supercharged by the M2 chip. Incredible performance and advanced displays.",
+      "price": 799,
+      "category": "Tablets",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=600"
+    },
+    {
+      "id": "10",
+      "name": "DJI Mini 4 Pro",
+      "description": "Lightweight drone with 4K HDR video and obstacle sensing for safety.",
+      "price": 759,
+      "category": "Drones",
+      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?q=80&w=600"
+    },
+    {
+      "id": "11",
+      "name": "Bose QuietComfort Ultra",
+      "description": "Premium wireless noise-cancelling earbuds with world-class sound.",
+      "price": 299,
+      "category": "Audio",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=600"
+    },
+  
+    {
+      "id": "12",
+      "name": "ASUS ROG Zephyrus G14",
+      "description": "The world's most powerful 14-inch gaming laptop with Ryzen 9.",
+      "price": 1599,
+      "category": "Laptops",
+      "image": "https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?q=80&w=600"
+    },
+    {
+      "id": "13",
+      "name": "SteelSeries Arctis Nova Pro",
+      "description": "Ultimate gaming headset with high-fidelity audio and dual-battery system.",
+      "price": 349,
+      "category": "Gaming",
+      "image": "https://images.unsplash.com/photo-1612444530582-fc66183b16f7?q=80&w=600"
+    },
+  
+    {
+      "id": "14",
+      "name": "Microsoft Surface Pro 9",
+      "description": "The power of a laptop with the flexibility of a tablet in one device.",
+      "price": 999,
+      "category": "Tablets",
+      "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?q=80&w=600"
+    },
+    {
+      "id": "15",
+      "name": "HyperX QuadCast S",
+      "description": "Professional USB microphone with RGB lighting and anti-vibration shock mount.",
+      "price": 159,
+      "category": "Audio",
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=600"
+    }
+  ]
+}
