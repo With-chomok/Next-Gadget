@@ -23,14 +23,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## ✨ Features
 * **Dynamic Product Listing:** Fetches data from a JSON file and renders 15+ products.
 * **Dynamic Routing:** Individual details page for every gadget using `[id]` routes.
-* **Google Authentication:** Secure login integration (Static design with redirect logic).
+* **Google Authentication:** Secure login integration 
 * **Modern UI/UX:** Built with Tailwind CSS and Lucide icons for a premium feel.
 * **Real-time Notifications:** Success or error toasts on login section.
 
 
 ### Brief Explanation of Features:
-1.  **Dynamic Routing:** Eita use kora hoyeche jate amader protita product-er jonno alada file banate na hoy. `/items/1` ba `/items/100`—sob ekoi template use kore kintu data alada dekhay.
-2.  **Server-side Fetching:** Next.js 15 use koray data server-e fetch hoy, fole page load hoy lightning fast ar Google search engine-e tor products gulo shohoje khuje paoa jay (SEO friendly).
+1.  **Dynamic Routing:** Its using for dynamically routing like `/items/1` or `/items/100`— All template are same design but data are not same.
+2.  **Server-side Fetching:** its using as a result project light weight (SEO friendly).
 
 ## Learn More
 
