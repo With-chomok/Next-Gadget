@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 NextGadget - Modern Tech E-Commerce Store
+
+NextGadget is a high-performance, responsive e-commerce landing page built with **Next.js 15**. It allows users to browse the latest gadgets, view detailed product information, and manage an inventory through a protected interface.
 
 ## Getting Started
 
@@ -16,9 +18,19 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## ✨ Features
+* **Dynamic Product Listing:** Fetches data from a JSON file and renders 15+ products.
+* **Dynamic Routing:** Individual details page for every gadget using `[id]` routes.
+* **Google Authentication:** Secure login integration (Static design with redirect logic).
+* **Modern UI/UX:** Built with Tailwind CSS and Lucide icons for a premium feel.
+* **Real-time Notifications:** Success or error toasts on login section.
+
+
+### Brief Explanation of Features:
+1.  **Dynamic Routing:** Eita use kora hoyeche jate amader protita product-er jonno alada file banate na hoy. `/items/1` ba `/items/100`—sob ekoi template use kore kintu data alada dekhay.
+2.  **Server-side Fetching:** Next.js 15 use koray data server-e fetch hoy, fole page load hoy lightning fast ar Google search engine-e tor products gulo shohoje khuje paoa jay (SEO friendly).
 
 ## Learn More
 
