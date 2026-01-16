@@ -1,4 +1,6 @@
+import About from "@/components/Section/About/About";
 import Hero from "@/components/Section/Hero/Hero";
+import Stats from "@/components/Section/stats/Stats";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,8 +9,8 @@ export default function Home() {
       {/* hero section  */}
     <Hero></Hero>
 
-
-
+    <Stats></Stats>
+    <About></About>
     
     </div>
   );
