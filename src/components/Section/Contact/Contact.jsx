@@ -24,7 +24,7 @@ const Contact = () => {
                 <Phone className="text-blue-600" size={24} />
               </div>
               <h4 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-white transition-colors">Call Us</h4>
-              <p className="text-gray-600 group-hover:text-blue-50 transition-colors">+880 1234 567 890</p>
+              <p className="text-gray-600 group-hover:text-blue-50 transition-colors">+880 179857-1413</p>
             </div>
 
             <div className="p-8 bg-gray-50 rounded-[2rem] border border-gray-100 group hover:bg-gray-900 transition-all duration-500">
@@ -53,7 +53,7 @@ const Contact = () => {
                   <label className="block text-sm font-bold text-gray-700 mb-2 ml-1">Full Name</label>
                   <input 
                     type="text" 
-                    placeholder="John Doe" 
+                    placeholder="Dipol Das" 
                     className="w-full px-6 py-4 bg-gray-50 border border-gray-100 rounded-2xl focus:ring-2 focus:ring-blue-500 outline-none transition-all placeholder:text-gray-300 font-medium"
                   />
                 </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                   <label className="block text-sm font-bold text-gray-700 mb-2 ml-1">Email Address</label>
                   <input 
                     type="email" 
-                    placeholder="john@example.com" 
+                    placeholder="dipol@example.com" 
                     className="w-full px-6 py-4 bg-gray-50 border border-gray-100 rounded-2xl focus:ring-2 focus:ring-blue-500 outline-none transition-all placeholder:text-gray-300 font-medium"
                   />
                 </div>
