@@ -20,8 +20,8 @@ const Brands = () => {
   ];
 
   return (
-    <section className="py-16 bg-white border-y my-15 border-gray-50">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-16 bg-white border-y border-gray-50">
+      <div className="max-w-7xl mx-auto px-4 my-15">
         <div className="text-center mb-10">
           <p className="text-[10px] md:text-[20px]  font-black text-gray-400 uppercase tracking-[0.5em]">
             Official Global Partners
