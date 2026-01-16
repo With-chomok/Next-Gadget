@@ -48,7 +48,7 @@ const ItemList = ({ item }) => {
 
           <div className="mt-auto pt-4 border-t border-gray-50 flex items-center justify-between">
             <div>
-              <span className="text-xl font-black text-gray-900">{price}৳</span>
+              <span className="text-xl font-black text-gray-900">{price}$</span>
             </div>
             <Link
               href={`/items/${id}`}
