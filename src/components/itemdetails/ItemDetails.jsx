@@ -14,7 +14,9 @@ const ItemDetails = async ({ params }) => {
   const { id } = await params;
 
   // 2. JSON data fetch kora
-  const res = await fetch("http://localhost:3000/items.json", { cache: 'no-store' });
+  const res = await fetch("https://next-gadget-seven.vercel.app/items.json", {
+    cache: "no-store",
+  });
   const data = await res.json();
 
   // 3. ID match kore single item find kora
@@ -25,7 +27,9 @@ const ItemDetails = async ({ params }) => {
     return (
       <div className="h-screen flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold text-gray-800">Product Not Found!</h1>
-        <Link href="/items" className="text-blue-600 underline mt-2">Back to Shop</Link>
+        <Link href="/items" className="text-blue-600 underline mt-2">
+          Back to Shop
+        </Link>
       </div>
     );
   }
@@ -55,8 +59,7 @@ const ItemDetails = async ({ params }) => {
           {[1, 2, 3].map((i) => (
             <div
               key={i}
-              className="h-24 bg-white border border-gray-100 rounded-2xl"
-            ></div>
+              className="h-24 bg-white border border-gray-100 rounded-2xl"></div>
           ))}
         </div>
       </div>
@@ -80,17 +83,13 @@ const ItemDetails = async ({ params }) => {
             {name}
           </h1>
 
-          <p className="text-gray-500 leading-relaxed text-lg">
-            {description}
-          </p>
+          <p className="text-gray-500 leading-relaxed text-lg">{description}</p>
         </div>
 
         {/* Price Card */}
         <div className="bg-white p-6 rounded-[2rem] border border-gray-100 shadow-sm mb-8">
           <div className="flex items-baseline gap-2 mb-1">
-            <span className="text-4xl font-black text-gray-900">
-              ${price}
-            </span>
+            <span className="text-4xl font-black text-gray-900">${price}</span>
             <span className="text-gray-400 line-through text-lg">
               ${price + 100}
             </span>
@@ -115,15 +114,23 @@ const ItemDetails = async ({ params }) => {
           <div className="flex items-start gap-4 p-4 rounded-2xl border border-dashed border-gray-200">
             <Truck className="text-blue-600 mt-1" size={20} />
             <div>
-              <h4 className="text-sm font-bold text-gray-900 text-left">Express Delivery</h4>
-              <p className="text-xs text-gray-500 text-left">Free delivery in Dhaka.</p>
+              <h4 className="text-sm font-bold text-gray-900 text-left">
+                Express Delivery
+              </h4>
+              <p className="text-xs text-gray-500 text-left">
+                Free delivery in Dhaka.
+              </p>
             </div>
           </div>
           <div className="flex items-start gap-4 p-4 rounded-2xl border border-dashed border-gray-200">
             <ShieldCheck className="text-blue-600 mt-1" size={20} />
             <div>
-              <h4 className="text-sm font-bold text-gray-900 text-left">Official Warranty</h4>
-              <p className="text-xs text-gray-500 text-left">12 Months replacement warranty.</p>
+              <h4 className="text-sm font-bold text-gray-900 text-left">
+                Official Warranty
+              </h4>
+              <p className="text-xs text-gray-500 text-left">
+                12 Months replacement warranty.
+              </p>
             </div>
           </div>
         </div>

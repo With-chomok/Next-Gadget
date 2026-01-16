@@ -1,11 +1,11 @@
-import ItemDetails from '@/components/itemdetails/ItemDetails';
-import { ArrowLeft } from 'lucide-react'; // Link lucide theke hobe na, next/link theke hobe
-import Link from 'next/link'; 
-import React from 'react';
+import ItemDetails from "@/components/itemdetails/ItemDetails";
+import { ArrowLeft } from "lucide-react"; // Link lucide theke hobe na, next/link theke hobe
+import Link from "next/link";
+import React from "react";
 
 const getItems = async () => {
-  const res = await fetch("http://localhost:3000/items.json", {
-    cache: "no-store", 
+  const res = await fetch("https://next-gadget-seven.vercel.app/items.json", {
+    cache: "no-store",
   });
 
   if (!res.ok) {
@@ -18,9 +18,9 @@ const getItems = async () => {
 
 // Next.js params pass kore page component e
 const page = async ({ params }) => {
-  // 1. URL theke id ta nite hobe 
+  // 1. URL theke id ta nite hobe
   const { id } = await params;
-  
+
   // 2. Sob item fetch kora
   const allItems = await getItems();
 
@@ -39,8 +39,7 @@ const page = async ({ params }) => {
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center">
           <Link
             href="/items"
-            className="flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-blue-600 transition-colors"
-          >
+            className="flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-blue-600 transition-colors">
             <ArrowLeft size={16} />
             Back to All Gadgets
           </Link>
@@ -48,7 +47,6 @@ const page = async ({ params }) => {
       </div>
 
       <main className="max-w-7xl mx-auto px-4 py-8 lg:py-16">
-        
         <ItemDetails params={params} item={singleItem} />
       </main>
     </div>
